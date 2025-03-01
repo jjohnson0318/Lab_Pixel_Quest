@@ -4,7 +4,6 @@ using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class GeoController : MonoBehaviour
 {
@@ -13,6 +12,7 @@ public class GeoController : MonoBehaviour
     private Rigidbody2D rb;
     public int speed = 5;
     public string nextLevel = "Scene 2";
+    public string nextnextLevel = "Scene 3";
     // Start is called before the first frame update
     void Start()
     {
@@ -79,11 +79,18 @@ public class GeoController : MonoBehaviour
                 }
             case "Finish":
                 {
+                    Debug.Log("Whoa");
                     SceneManager.LoadScene(nextLevel);
                     break;
                 }
+            case "Finish 1":
+                {
+                    SceneManager.LoadScene(nextnextLevel);
+                    break;
+                }
+        }
+    
         }
     }
-}
 
        

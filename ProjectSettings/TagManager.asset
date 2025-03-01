@@ -8,6 +8,7 @@ TagManager:
   - Death
   - Health
   - Coin
+  - Finish 1
   layers:
   - Default
   - TransparentFX
