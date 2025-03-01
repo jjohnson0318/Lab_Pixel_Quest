@@ -663,7 +663,7 @@ GameObject:
   - component: {fileID: 303207049}
   m_Layer: 0
   m_Name: Hexagon Flat-Top
-  m_TagString: Finish
+  m_TagString: Finish 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1213,6 +1213,7 @@ MonoBehaviour:
   speed: 5
   nextLevel: 
   nextnextLevel: 
+  lastLevel: Scene_4
 --- !u!212 &998483111
 SpriteRenderer:
   m_ObjectHideFlags: 0

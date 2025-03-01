@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Geo_Quest/Scenes/Scene_2.unity
     guid: 7d1ad3999b21b8e41bf54aaf094b068e
+  - enabled: 1
+    path: Assets/Geo_Quest/Scenes/Scene_4.unity
+    guid: 60cae4c9ce0f49d40bab11506cf6e121
   m_configObjects: {}

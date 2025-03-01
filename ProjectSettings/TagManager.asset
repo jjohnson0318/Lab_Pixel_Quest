@@ -9,6 +9,7 @@ TagManager:
   - Health
   - Coin
   - Finish 1
+  - Finish 2
   layers:
   - Default
   - TransparentFX

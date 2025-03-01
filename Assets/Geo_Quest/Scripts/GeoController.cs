@@ -13,6 +13,7 @@ public class GeoController : MonoBehaviour
     public int speed = 5;
     public string nextLevel = "Scene 2";
     public string nextnextLevel = "Scene 3";
+    public string lastLevel = "Scene 4";
     // Start is called before the first frame update
     void Start()
     {
@@ -86,6 +87,11 @@ public class GeoController : MonoBehaviour
             case "Finish 1":
                 {
                     SceneManager.LoadScene(nextnextLevel);
+                    break;
+                }
+            case "Finish 2":
+                {
+                    SceneManager.LoadScene(lastLevel);
                     break;
                 }
         }
